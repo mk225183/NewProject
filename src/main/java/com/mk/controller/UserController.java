@@ -40,6 +40,7 @@ public class UserController {
     //retrieving all users 
     @GetMapping("/users")
     public List<User> getAllUsers(){
+        System.out.println("Current time is);
         return userService.getAllUser();
     }
     
